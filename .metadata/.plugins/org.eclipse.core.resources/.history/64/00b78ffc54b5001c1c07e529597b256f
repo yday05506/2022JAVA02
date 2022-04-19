@@ -1,0 +1,15 @@
+package TextInheritance03;
+
+public class Leader extends Student {
+	boolean boss;
+	
+	public Leader(String name, String S_num, boolean boss) {
+		this.name = name;
+		this.S_num = S_num;
+		this.boss = boss;
+	}
+	
+	void isleader() {
+		System.out.println("홍길동은 학급회장이다.");
+	}
+}
