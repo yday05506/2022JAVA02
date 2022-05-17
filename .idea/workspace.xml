@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c794a7bd-00f7-4baf-9db2-818c8294ebba" name="Changes" comment="한글 처리 가능">
+    <list default="true" id="c794a7bd-00f7-4baf-9db2-818c8294ebba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/bytecode/FileStreamExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bytecode/tin.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bytecode/BufferedExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bytecode/BufferedExam.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
       <recent name="bytecode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BufferedExam">
+  <component name="RunManager" selected="Application.FileStreamExam">
     <configuration name="BufferedExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bytecode.BufferedExam" />
       <module name="InputOutputProject" />
@@ -68,6 +69,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FileStreamExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bytecode.FileStreamExam" />
+      <module name="InputOutputProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bytecode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReadFromSysExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bytecode.ReadFromSysExam" />
       <module name="InputOutputProject" />
@@ -83,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileStreamExam" />
         <item itemvalue="Application.BufferedExam" />
         <item itemvalue="Application.ReadFromSysExam" />
         <item itemvalue="Application.Echo1Exam" />
@@ -133,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652239023975</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="입출력 스트림">
+      <created>1652770067477</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652770067477</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -142,6 +164,7 @@
     <MESSAGE value="streamTest() (한글 데이터 처리 불가)" />
     <MESSAGE value="한글 데이터 처리" />
     <MESSAGE value="flush()" />
-    <option name="LAST_COMMIT_MESSAGE" value="flush()" />
+    <MESSAGE value="입출력 스트림" />
+    <option name="LAST_COMMIT_MESSAGE" value="입출력 스트림" />
   </component>
 </project>
