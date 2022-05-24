@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c794a7bd-00f7-4baf-9db2-818c8294ebba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/CharacterCode/FileTestExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CharacterCode/InExam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CharacterCode/ReadLineFileExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CharacterCode/ReadLineFileExam.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653374121496</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="파일로부터 한 줄 단위 문자 읽기(주석 추가)">
+      <created>1653374679598</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653374679598</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -211,6 +219,7 @@
     <MESSAGE value="파일 복사" />
     <MESSAGE value="Buffer" />
     <MESSAGE value="파일로부터 한 줄 단위 문자 읽기" />
-    <option name="LAST_COMMIT_MESSAGE" value="파일로부터 한 줄 단위 문자 읽기" />
+    <MESSAGE value="파일로부터 한 줄 단위 문자 읽기(주석 추가)" />
+    <option name="LAST_COMMIT_MESSAGE" value="파일로부터 한 줄 단위 문자 읽기(주석 추가)" />
   </component>
 </project>
