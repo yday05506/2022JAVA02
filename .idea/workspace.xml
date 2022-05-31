@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c794a7bd-00f7-4baf-9db2-818c8294ebba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CharacterCode/sungDatasExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CharacterCode/sungDatasExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CharacterCode/sungDatasExam.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653375826220</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="성적 데이터 입력 후 처리(미완성)">
+      <created>1653376232434</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1653376232434</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -226,6 +234,7 @@
     <MESSAGE value="파일로부터 한 줄 단위 문자 읽기" />
     <MESSAGE value="파일로부터 한 줄 단위 문자 읽기(주석 추가)" />
     <MESSAGE value="키보드로부터 숫자 데이터 입력" />
-    <option name="LAST_COMMIT_MESSAGE" value="키보드로부터 숫자 데이터 입력" />
+    <MESSAGE value="성적 데이터 입력 후 처리(미완성)" />
+    <option name="LAST_COMMIT_MESSAGE" value="성적 데이터 입력 후 처리(미완성)" />
   </component>
 </project>
