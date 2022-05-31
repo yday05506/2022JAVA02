@@ -1,11 +1,20 @@
-package CharacterCode;
+package FileWriteExam;
 
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class sungDatasExam {
+public class sungDataRWExam {
+    int length;
+    String[] name = new String[10];
+    String[] address = new String[10];
+    double[] math = new double[10];
+    double[] english = new double[10];
+    double[] total = new double[10];
+    double[] avg = new double[10];
+
     public void readingData(String fname) throws IOException {
-        // String fname = "C;/Temp/writed.txt";
+        FileWriter fw = null;
+        BufferedWriter bw = null;
         try {
             // File ff = new File(fname);
             // FileReader fr = new FileReader(ff);
@@ -21,8 +30,8 @@ public class sungDatasExam {
                 // br이 가리키는 파일의 1줄을 읽어서 tmpStr에 저장
                 // tmpStr은 null이 아님
                 // 읽을 데이터가 없으면 tmpStr은 null이 됨
-               tmpStr = br.readLine();  // readLine()의 리턴값은 String
-                if(tmpStr != null) {
+                tmpStr = br.readLine();  // readLine()의 리턴값은 String
+                if (tmpStr != null) {
                     csvStr += tmpStr + "\t";
                 }
             }
@@ -40,7 +49,7 @@ public class sungDatasExam {
             double[] total = new double[length];
             double[] avg = new double[length];
 
-            for(int i = 0; i < length; i++) {
+            for (int i = 0; i < length; i++) {
                 // parse는 첫 번째 토큰을 가리킴
                 // 첫 번째 문자열을 읽어서 name[i]에 저장
                 // 저장한 후에는 nextToken() 메소드에 의해서 parse는 다음 토큰을 가리킴
@@ -54,10 +63,11 @@ public class sungDatasExam {
                 avg[i] = total[i] / 2.0;
             }
 
-            for(int j = 0; j < length; j++) {
+            for (int j = 0; j < length; j++) {
                 System.out.println(name[j] + "\t" + address[j] + "\t" + math[j] + "\t" + english[j] + "\t" + total[j] + "\t" + avg[j]);
             }
-        } catch (FileNotFoundException e) {
+        } catch (
+                FileNotFoundException e) {
             System.out.println("잘못된 파일 이름을 입력했습니다.");
         }
     }
