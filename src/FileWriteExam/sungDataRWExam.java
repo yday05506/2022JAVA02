@@ -71,4 +71,7 @@ public class sungDataRWExam {
             System.out.println("잘못된 파일 이름을 입력했습니다.");
         }
     }
+
+    public void writingData(String s) {
+    }
 }

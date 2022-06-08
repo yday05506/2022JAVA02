@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c794a7bd-00f7-4baf-9db2-818c8294ebba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FileWriteExam/WritingDatasMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FileWriteExam/sungDataRWExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/ReadingD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/WritingD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CharacterCode/sungDatasExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CharacterCode/sungDatasExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileWriteExam/sungDataRWExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileWriteExam/sungDataRWExam.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,22 +52,9 @@
       <recent name="bytecode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadLineFileExam">
+  <component name="RunManager" selected="Application.WritingD">
     <configuration name="BufferedInputExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CharacterCode.BufferedInputExam" />
-      <module name="InputOutputProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CharacterCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CharacterCode.FileExam" />
       <module name="InputOutputProject" />
       <extension name="coverage">
         <pattern>
@@ -92,19 +79,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InputReaderExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CharacterCode.InputReaderExam" />
-      <module name="InputOutputProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CharacterCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ReadLineFileExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CharacterCode.ReadLineFileExam" />
       <module name="InputOutputProject" />
@@ -118,13 +92,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WritingD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice.WritingD" />
+      <module name="InputOutputProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WritingDatasMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileWriteExam.WritingDatasMain" />
+      <module name="InputOutputProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FileWriteExam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WritingD" />
+        <item itemvalue="Application.WritingDatasMain" />
         <item itemvalue="Application.ReadLineFileExam" />
         <item itemvalue="Application.BufferedInputExam" />
         <item itemvalue="Application.FileExam2" />
-        <item itemvalue="Application.FileExam" />
-        <item itemvalue="Application.InputReaderExam" />
       </list>
     </recent_temporary>
   </component>
