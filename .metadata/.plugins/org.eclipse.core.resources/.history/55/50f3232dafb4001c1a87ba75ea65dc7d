@@ -1,5 +1,0 @@
-package Inheritance08;
-
-public class SmartPhone extends PDA implements MobliePhoneInterface, MP3Interface{
-	//
-}

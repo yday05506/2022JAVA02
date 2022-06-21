@@ -1,4 +1,3 @@
 INDEX VERSION 1.131+E:\mirim\2022\class\Java\.metadata\.plugins\org.eclipse.jdt.core
-1649355416.index
 700553686.index
 1425499587.index
