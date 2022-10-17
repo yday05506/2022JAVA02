@@ -47,7 +47,7 @@ public class sungDatasExam {
                 name[i] = parse.nextToken();
                 address[i] = parse.nextToken();
                 // Double래퍼클래스의 valueOf() 메소드는 parse가 가리키는 문자열을 객체 타입의 실수형으로 변환
-                // doubleValue() 메소드는 객체 타입의 실수값을 기본형 타입으로 변환
+                // doubleValue() 메소드는 객체 타입의 실수값을 기본형 타입으로 변환 후에 math[i]에 저장
                 math[i] = Double.valueOf(parse.nextToken()).doubleValue();
                 english[i] = Double.valueOf(parse.nextToken()).doubleValue();
                 total[i] = math[i] + english[i];
