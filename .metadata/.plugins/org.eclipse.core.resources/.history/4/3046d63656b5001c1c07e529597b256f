@@ -1,0 +1,11 @@
+package TextInheritance04;
+
+public class CircleMainTest {
+
+	public static void main(String[] args) {
+		CircleArea_Exam cp = new CircleArea_Exam();
+		
+		System.out.println("원의 면적은 " + cp.area(10));
+	}
+
+}

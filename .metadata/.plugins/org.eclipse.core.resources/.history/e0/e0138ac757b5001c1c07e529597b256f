@@ -1,0 +1,10 @@
+package TextInheritance05;
+
+public class EngHello extends Greeting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
