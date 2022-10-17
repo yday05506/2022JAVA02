@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c794a7bd-00f7-4baf-9db2-818c8294ebba" name="Changes" comment="한글 처리 가능">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bytecode/BufferedExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bytecode/BufferedExam.java" afterDir="false" />
-    </list>
+    <list default="true" id="c794a7bd-00f7-4baf-9db2-818c8294ebba" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +13,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="origin/main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
