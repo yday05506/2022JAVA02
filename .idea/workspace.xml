@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c794a7bd-00f7-4baf-9db2-818c8294ebba" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exception02/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception02/AccountExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception02/BalanceInsufficientException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,14 +317,7 @@
       <option name="project" value="LOCAL" />
       <updated>1655863344954</updated>
     </task>
-    <task id="LOCAL-00027" summary="BalanceInsufficientException">
-      <created>1655865292998</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1655865292998</updated>
-    </task>
-    <option name="localTasksCounter" value="28" />
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -351,7 +342,6 @@
     <MESSAGE value="예외 처리" />
     <MESSAGE value="NullPointerException" />
     <MESSAGE value="Throw" />
-    <MESSAGE value="BalanceInsufficientException" />
-    <option name="LAST_COMMIT_MESSAGE" value="BalanceInsufficientException" />
+    <option name="LAST_COMMIT_MESSAGE" value="Throw" />
   </component>
 </project>
