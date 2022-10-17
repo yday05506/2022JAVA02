@@ -12,8 +12,9 @@ public class ReadingD {
     double[] english = new double[10];
     double[] total = new double[10];
     double[] avg = new double[10];
-    String[] grade = new String[20];
+    String[] grade = new String[10];
     int[] rank = new int[10];
+    int ranker;
 
     public void WritingD(String fname) throws IOException {
         // String fname = "C:/Temp/writing.txt"
@@ -34,7 +35,7 @@ public class ReadingD {
 
             for (int j = 0; j < length; j++) {
                 bw.write(s_num[j] + "\t" + name[j] + "\t" + String.format("%.0f", korean[j]) + "\t\t" + String.format("%.0f", math[j]) + "\t\t" + String.format("%.0f", english[j])
-                        + "\t\t" + total[j] + "\t" + String.format("%.1f", avg[j]) + "\t\t" + grade[j] + "\t\t" + rank[j]);
+                        + "\t\t" + total[j] + "\t" + String.format("%.1f", avg[j]) + "\t\t" + grade[j]);
                 // bw가 가리키는 파일 "writing.txt"에 출력한다.
                 bw.newLine(); // BufferedWriter클래스는 newLine()메소드를 가지고 있다.
                 // newLine()는 줄바꿈
@@ -76,14 +77,7 @@ public class ReadingD {
                 else if(avg[i] >= 70) grade[i] = "C";
                 else if(avg[i] >= 60) grade[i] = "D";
                 else grade[i] = "F";
-            }
-
-            for(int i = 0; i < length; i++) {
-                rank[i] = 1;
-                for(int j = 0; j < length; j++) {
-                    if (avg[i] < avg[j])
-                        rank[i]++;
-                }
+                rank[i] = Arrays.sort((int)avg);
             }
 
         } catch (FileNotFoundException e) {
