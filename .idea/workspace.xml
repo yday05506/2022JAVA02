@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c794a7bd-00f7-4baf-9db2-818c8294ebba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/exception02/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception02/AccountExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +44,6 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -325,14 +326,7 @@
       <option name="project" value="LOCAL" />
       <updated>1655865292998</updated>
     </task>
-    <task id="LOCAL-00028" summary="계좌">
-      <created>1655866333710</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1655866333710</updated>
-    </task>
-    <option name="localTasksCounter" value="29" />
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -358,7 +352,6 @@
     <MESSAGE value="NullPointerException" />
     <MESSAGE value="Throw" />
     <MESSAGE value="BalanceInsufficientException" />
-    <MESSAGE value="계좌" />
-    <option name="LAST_COMMIT_MESSAGE" value="계좌" />
+    <option name="LAST_COMMIT_MESSAGE" value="BalanceInsufficientException" />
   </component>
 </project>
