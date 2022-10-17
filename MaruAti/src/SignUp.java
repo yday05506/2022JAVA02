@@ -3,7 +3,7 @@ import java.awt.*;
 
 public class SignUp extends JFrame {
     SignUp() {
-        super("로그인");   // 타이틀
+        super("회원가입");   // 타이틀
         JPanel jPanel = new JPanel();
 
         jPanel.setBackground(Color.darkGray);
