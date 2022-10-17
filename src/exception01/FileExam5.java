@@ -22,6 +22,5 @@ public class FileExam5 {
         }catch (ArrayIndexOutOfBoundsException ae2) {   // 오류 발생
             System.out.println("배열의 범위 벗어난 예외 발생");
         }
-        // catch 문장 작성 시 상위 예외클래스가 맨 마지막에 위치해야 함
     }
 }
